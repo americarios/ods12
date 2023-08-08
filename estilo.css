@@ -1,0 +1,100 @@
+@media only screen and (max-device-width: 900px) {
+  /* .menu { width:100%; } */
+  }
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    color: rgb(31, 27, 27);
+    background-color: antiquewhite;
+    padding: auto;
+    margin-top: auto;
+    background-color: #f2f2f2; /* Cor de fundo de backup */
+    background-image: url('imagens/capa1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  
+h1 {
+  color: rgb(45, 39, 16);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: solid;
+  text-align: end;
+
+
+
+
+}
+
+h2{
+color: rgb(0, 0, 0);
+font-family: 'Courier New', Courier, monospace;
+text-align: end;
+font-weight: bold;
+padding: px;
+margin-top: 100px;
+margin-left: 0px;
+
+}
+
+  header {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+  }
+  
+
+   form {
+width: 30;
+margin: 0px;
+text-align: left;
+
+
+   }
+   
+   footer{
+    
+    background-color: #ccc;
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 150px;
+
+   } 
+  
+
+ul.menu {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  background-color: #ccc;
+  display: flex;
+}
+
+/* Estilos para os itens do menu */
+ul.menu li {
+  margin: 0;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+/* Estilos para os links do menu */
+ul.menu li a {
+  text-decoration: none;
+  color: #4f3207;
+}
+
+/* Estilos para o link ativo */
+ul.menu li.active {
+  background-color: rgb(253, 219, 174);
+}

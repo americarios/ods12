@@ -1,0 +1,184 @@
+
+@media only screen and (max-device-width: 900px) {
+  /* .menu { width:100%; } */
+  }
+
+
+
+body {
+    font-family: Arial, Arial, Arial;
+    text-align: left;
+    color: rgb(31, 27, 27);
+    padding: auto;
+    margin-top: auto;
+    background-color: #f2f2f2; /* Cor de fundo de backup */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: solid;
+  text-align: center;
+
+}
+
+
+p{
+text-align: center;
+
+
+}
+
+
+h2{
+color: rgb(0, 0, 0);
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+font-weight: bold;
+padding: 10px;
+
+
+}
+
+
+
+h3{
+  color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px;
+  
+  
+  }
+
+
+
+  header {
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+  }
+
+
+iframe{
+flood-opacity: 10px;
+border-color: rgb(255, 255, 255);
+padding: 0%;
+margin-left: left;
+align-items: center;
+
+}
+
+
+
+div class {
+  background-color: #a2a185;
+  padding: auto;
+  border: 1px solid rgb(1, 31, 1);;
+  border-radius: 5px;
+}
+
+ul.menu {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  background-color: #ccc;
+  display: flex;
+}
+
+/* Estilos para os itens do menu */
+ul.menu li {
+  margin: 0;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/* Estilos para os links do menu */
+ul.menu li a {
+  text-decoration: none;
+  color:#4f3207;
+}
+
+/* Estilos para o link ativo */
+ul.menu li.active {
+  background-color: #ccc;
+}
+
+
+  
+  form {
+    width: 30;
+    margin: 10px;
+    text-align: end;
+    color: #4f3207;
+       }
+    
+
+
+
+
+th {
+text-align: center;
+text-decoration: none;
+
+}
+
+
+td {
+  text-align: center;
+  text-decoration: lightcoral;
+
+  
+  }
+
+ 
+   
+  coluna {
+    display: inline-block;
+    width: 33.33%; /* Para três colunas iguais, use 33.33% para duas colunas, use 50% e assim por diante */
+    padding: 10px;
+}
+
+
+table, th, td {
+  color: black;
+  }
+  
+
+
+
+   
+footer{
+ 
+ background-color: #ccc;
+ padding: 20px;
+ text-align: left;
+ font-size: 14px;
+
+} 
+
+div{
+display: flex;
+text-align: end;
+
+
+}
+
+section{
+font-display: auto;
+border: #ccc;
+background-color: #ccc;
+
+
+}
